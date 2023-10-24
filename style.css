@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #cae9ff;
+    color: #e7ecef;
+}
+
+#titulo{
+    font-weight: bolder;
+    font-size: 35px;
+    color: #274c77;
+}
+
+.subtitulo{
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: #274c77;
+}
+
+#fotopessoa{
+    width: 35%;
+    height: 35%;
+    border: 1px #e7ecef solid;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px 2px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+
+.headerpessoa{
+    margin-top: 7%;
+    padding: 120px;
+    border: 1px #e7ecef solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px 2px;    
+    background-color: #274c77;
+    margin-bottom: 7%;
+}
+
+.titulo_pessoa{
+    display: flex;
+    gap: 35px;
+    border: 1px #e7ecef solid;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px 2px;
+    background-color: #6096ba;
+}
+
+.nomesexopessoa{
+    background-color: #6096ba;
+}
+
+#nomepessoa{
+    background-color: #6096ba;
+}
+
+#sexopessoa{
+    background-color: #6096ba;
+}
+
+.localizacao_pessoa{
+    padding: 10px;
+    border: 1px #e7ecef solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px 2px;
+    background-color: #6096ba;
+}
+
+.contato_pessoa{
+    padding: 10px;
+    border: 1px #e7ecef solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px 2px;
+    background-color: #6096ba;
+}
+
+#localizacao, #codigopostal, #cidadepessoa, #estadopessoa, #paispessoa, #telefonepessoa, #emailpessoa{
+    background-color: #6096ba;
+}
