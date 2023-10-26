@@ -53,5 +53,10 @@ async function getUserData(){
 
 }
 
+botao = document.querySelector(".button");
+botao.onclick = function(){
+    getUserData();
+}
 
 getUserData();
+
